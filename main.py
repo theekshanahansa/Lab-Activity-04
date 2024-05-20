@@ -8,19 +8,16 @@ def main():
     member1 = FacultyMember("Mr.Supun", 35, "Lecture", "Decision Science")
     member2 = FacultyMember("Dr.Amali", 40, "Department Head", "Management of Technology")
     member3 = FacultyMember("Dr.Venura", 50, "Lecture", "Decision Science")
-    member4 = FacultyMember("Dr. Asanka" 38, "Lecturer", "Decision Science")
 
     # Create FacultyModule instances
     module1 = FacultyModule("Introduction to Marketing", "MKT101")
     module2 = FacultyModule("Advanced Marketing Strategies", "MKT201")
     module3 = FacultyModule("Corporate Finance", "FIN301")
-    module4 = FacultyModule("Numerical Methods", "DA3452")
 
     # Add modules to faculty members
     member1.add_module(module1)
     member2.add_module(module2)
     member3.add_module(module3)
-    member4.add_module(module4)
 
     # Add members to the faculty lecture
     faculty_lecture.add_member(member1)
