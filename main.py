@@ -7,11 +7,11 @@ def main():
     # Create FacultyMember instances
     member1 = FacultyMember("Mr.Supun", 35, "Lecture", "Decision Science")
     member2 = FacultyMember("Dr.Amali", 40, "Department Head", "Management of Technology")
-    member3 = FacultyMember("Dr.Venura", 50, "Lecture", "Decision Science")
+    member3 = FacultyMember("Dr.Venura", 50, "Lecture", "Industrial Management")
 
     # Create FacultyModule instances
-    module1 = FacultyModule("Introduction to Marketing", "MKT101")
-    module2 = FacultyModule("Advanced Marketing Strategies", "MKT201")
+    module1 = FacultyModule("Fundamentals of Programming", "DA1254")
+    module2 = FacultyModule("Lean Six Sigma", "TM1234")
     module3 = FacultyModule("Corporate Finance", "FIN301")
 
     # Add modules to faculty members
